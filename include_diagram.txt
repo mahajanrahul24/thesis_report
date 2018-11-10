@@ -1,0 +1,27 @@
+
+              /---> mk/config.mk
+              |
+              |---> mk/bochs.mk
+              |
+              |---> mk/initfs.mk
+              |
+              |---> mk/disk.mk
+              |
+              |---> mk/filesystem.mk
+	      |
+	      |---> /initfs.toml
+	      |
+  	    |---> /filesystem.toml
+              |
+Makefile  --->|
+              |                             /-> initfs.toml -> /filesystem.toml
+              |                             |
+              |                             |
+              |-> mk/qemu or virtualbox.mk->|
+              |            ^                |
+              |            |                |
+              |            |                |
+              |            \________________/            
+              |
+              |
+              \---> mk/kernel.mk

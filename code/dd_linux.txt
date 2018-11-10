@@ -1,0 +1,9 @@
+$ dd if=/dev/zero of=test bs=1000000 count=10 oflag=sync
+10+0 records in
+10+0 records out
+10000000 bytes (10 MB, 9,5 MiB) copied, 0,0940109 s, 106 MB/s
+$ dd if=/dev/zero of=test bs=1000 count=10000 oflag=sync
+10000+0 records in
+10000+0 records out
+10000000 bytes (10 MB, 9,5 MiB) copied, 62,8903 s, 159 kB/s
+

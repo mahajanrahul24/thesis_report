@@ -1,0 +1,348 @@
+%------------------------------------------------------------------------------
+%	Template owner:
+%------------------------------------------------------------------------------
+%	Name					: Harshad Sharad Sinkar
+%	University				: Chemnitz University of Technology
+%	Major					: MSc. Embedded System	
+%	Matr. No.				: 424589  
+%	Department			: Department of Computer Science  
+%	Betreuer				: Prof. Dr.-Ing. XXXXX
+%	Prüfer					: Prof. Dr.-Ing. XXXXX
+%	Ausgabedatum		: XX.YY.ZZZZ
+%	Abgabedatum		: XX.YY.ZZZZ
+%------------------------------------------------------------------------------
+%	Company Name	: Bosch Engineering Group (BEG), Abstatt
+%	Department			: IoT-Embedded Linux (BEG/PJ-IoT-EL)
+%	Betreuer 				: Prof. Dr.-Ing. XXXXX
+%------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
+\documentclass[a4paper, 12pt, oneside, BCOR1cm,toc=chapterentrywithdots]{scrbook}
+
+\usepackage{graphicx}           % use for pdfLatex
+\usepackage{makeidx} % f\"{u}r Benutzung des Befehls \printindex
+\usepackage[colorlinks=false]{hyperref}
+\usepackage{tocbibind}
+\usepackage{listings}
+\usepackage{blindtext}
+\usepackage{subfigure} 
+\usepackage{acronym}
+\usepackage{tabularx}
+\usepackage{afterpage}
+\usepackage{textcomp}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{lmodern}  % for bold teletype font
+\usepackage{amsmath}  % for \hookrightarrow
+%\usepackage{xcolor}   % for \textcolor
+\usepackage{float}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{fancyvrb}
+\usepackage[titletoc]{appendix}
+\hypersetup{%
+bookmarksnumbered=true, hyperindex=true,
+%
+%Im Acrobat Reader Subtitel 1. Ebene anzeigen
+bookmarksopen=true, bookmarksopenlevel=1,
+%
+pdfborder=0 0 0 % Keine Box um die Links!
+}
+
+
+%------------------------------------------------------------------------------
+% Force Tables and List to be added in Table of Content
+%------------------------------------------------------------------------------
+
+\renewcommand*{\tableofcontents}{%
+  	\begingroup
+  	\tocsection
+  	\tocfile{\contentsname}{toc}
+  	\endgroup
+}
+\renewcommand*{\listoffigures}{%
+  	\begingroup
+  	\tocsection
+  	\tocfile{\listfigurename}{lof}
+  	\endgroup
+}
+\renewcommand{\listoftables}{
+	\begingroup
+	\tocsection
+	\tocfile{\listtablename}{lot}
+	\endgroup
+}
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}   
+  
+\lstset{
+	basicstyle=\ttfamily,
+	columns=fullflexible,
+	frame=single,
+	breaklines=true,
+	postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+}  
+
+
+\begin{document}
+%------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
+%
+%  Here I go . . .
+%
+%------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
+
+%--------titlepage
+\begin{titlepage}
+
+{
+    
+    %\begin{center}
+        %\raisebox{-1ex}{\includegraphics[scale=1.5]{TU_Chemnitz_positiv_gruen.pdf}}\\
+    %\end{center}
+    \begin{center}
+    
+	\raisebox{-.4\height}{\includegraphics[scale=.5]{images/BEG_Logo.jpg}}\raggedleft
+	\hfill
+	\raisebox{-.4\height}{\includegraphics[scale=0.8]{images/TU_Chemnitz_positiv_gruen.pdf}}\raggedright
+	
+    \end{center}
+}
+
+
+\begin{center}
+
+\LARGE{\textbf{Learning Based Performance Prediction For Embedded Hardware}}\\
+\vspace{0.8cm}
+
+
+\Large{\textbf{Master Thesis}}\\ 
+\vspace{0.8cm}
+Submitted in Fulfillment of the\\
+Requirements for the Academic Degree\\
+M.Sc. Automotive Software Engineering\\
+\vspace{0.5cm}
+Dept. of Computer Science\\
+Chair of Automotive Software Engineering\\
+Technische Universit{\"a}t Chemnitz, Germany\\
+\vspace{0.5cm}
+Thesis work carried out at Software Systems Engineering Dept., Robert Bosch GmbH, \\
+Renningen, Germany
+
+\vspace{0.8cm}
+	\begin{tabular}{@{}>{}rl@{}}
+			Author:	& Rahul Gajanan Mahajan \\
+    		Student ID:	& 424592               \\
+    		Supervisors:	& Dr. Arne Hamann \\
+    						& Michael Pressler \\
+    						& Falk Wurst \\
+    		Examiner:	& Dr.-Ing. Alejandro Javier Masrur\\
+    					
+  	\end{tabular}
+
+\vspace{0.5cm}  	
+\today\\  	
+
+\end{center}
+\end{titlepage}
+
+%------------------------------------------------------------------------------
+% Blank Page
+%------------------------------------------------------------------------------
+\afterpage{\blankpage}
+
+%Here starts the real work
+%------------------------------------------------------------------------------
+% Acknowledgement
+%------------------------------------------------------------------------------
+
+\addchap*{Acknowledgement}
+\addcontentsline{toc}{chapter}{Acknowledgement}
+\input{src/Acknowledgement}
+
+%------------------------------------------------------------------------------
+% Abstract
+%------------------------------------------------------------------------------
+
+\addchap*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\input{src/00chapter}
+
+%------------------------------------------------------------------------------
+% Table of Contents, List of figures, List of Tables
+%------------------------------------------------------------------------------
+
+\tableofcontents
+%\listoffigures
+%\listoftables
+
+\onecolumn
+%------------------------------------------------------------------------------
+% Chapter 1 : Introduction
+%------------------------------------------------------------------------------
+\chapter{Introduction}
+\input{src/01chapter}  % Load Data from File intro.tex
+%------------------------------------------------------------------------------
+% Chapter 2 : State of the Art
+%------------------------------------------------------------------------------
+\chapter{State of The Art}
+\input{src/02chapter}  % Load Data from File intro.tex
+%------------------------------------------------------------------------------
+% Chapter 3 : Design and Implementation Storyboards
+%------------------------------------------------------------------------------
+%\chapter{Setup Steps and Basic Usage Insight}
+%\input{src/03chapter}  % Load Data from File intro.tex
+\chapter{Basics}
+\input{src/03chapter}  % Load Data from File intro.tex
+%------------------------------------------------------------------------------
+% Chapter 4 : Design and Implementation Storyboards
+%------------------------------------------------------------------------------
+\chapter{Design and Implementation Storyboards}
+\input{src/04chapter}  % Load Data from File intro.tex
+%------------------------------------------------------------------------------
+% Chapter 5 : Performance Measurements Tests
+%------------------------------------------------------------------------------
+\chapter{Safety Competency}
+\input{src/05chapter}  % Load Data from File intro.tex
+%------------------------------------------------------------------------------
+% Chapter 6 : Functional Safety and Security
+%------------------------------------------------------------------------------
+\chapter{Performance Evaluation}
+\input{src/06chapter}  % Load Data from File intro.tex
+%------------------------------------------------------------------------------
+% Chapter 7 : Results and Discussion
+%------------------------------------------------------------------------------
+\chapter{Future Outlook}
+\input{src/07chapter}  % Load Data from File intro.tex
+%------------------------------------------------------------------------------
+% Chapter 8 : Summary and Outlook
+%------------------------------------------------------------------------------
+\chapter{Conclusion}
+\input{src/08chapter}  % Load Data from File intro.tex
+%------------------------------------------------------------------------------
+
+%\chapter{Tables}
+%\input{src/example_tables} % Load Data from File example_tables
+
+%\chapter{Figures}
+%\input{src/example_figures} % Load Data from File example_figures
+
+%\chapter{Referencing}
+% Alternativ just write your text under \chapter like this example
+
+%\blindtext \cite{autorenrichtlinien}
+
+%\blindtext \footnote{Here is an area for your Notes}
+
+%\blindtext \footnote{\cite{lnilatex} Seite 11}
+%\blindtext \cite{lnilatex}
+%\blindtext \cite{autorenrichtlinien,pepper1992grundlagen,chen2001audiovisual}
+%\blindtext \cite{ChelseaFC}
+
+%\chapter{Subchapter}
+
+%\section{sub 1}
+%\blindtext[3]
+%\section{sub 2}
+%\blindtext[3]
+%\subsection{sub 2.1}
+%\blindtext[3]
+
+%\subsection{sub 2.2}
+%\blindtext[3]
+
+%------------------------------------------------------------------------------
+% bibliography based on Springer Design
+%------------------------------------------------------------------------------
+
+\bibliographystyle{splncs03}
+\bibliography{bibliography}
+
+\printindex
+
+%------------------------------------------------------------------------------
+% List of Abbreviations
+%------------------------------------------------------------------------------
+\twocolumn
+\addchap{List of Abbreviations}
+
+\begin{acronym}
+	
+	\acro{API}{Applicaton Program Interface}
+	\acro{ASIL}{Automotive Safety Integrity Levels}
+	\acro{BPF}{Berkeley Packet Filter}	
+	\acro{Bash}{Bourne-again shell}
+	\acro{BIOS}{Basic Input/Output System}
+	\acro{BLOB}{Binary Large Object}
+	\acro{BMP}{Bitmap}
+	\acro{CISC}{Complex Instruction Set Computing}
+	\acro{CPU}{Central Processing Unit}
+	\acro{DLL}{Dynamic Link Library}
+	\acro{DMA}{Direct Memory Access}
+	\acro{DOS}{Disk Operating System}
+	\acro{DRAM}{Dynamic Random Access Memory}
+	\acro{eBPF}{Linux Enhanced BPF}
+	\acro{FIDL}{Fuchsia Interface Description Language}
+	\acro{FTP}{File Transfer Protocol}
+	\acro{GPU}{Graphics Processing Unit}
+	\acro{GUI}{Graphical User Interface}
+	\acro{GUID}{Globally Unique Identifier}
+	\acro{IDE}{Integrated Development Environment}
+	\acro{IP}{Internet Protocol}
+	\acro{IPC}{Inter Process Communication}
+	\acro{ISO}{	International Organization For Standardization}
+	\acro{KDE}{K Desktop Environment}
+	\acro{KOID}{Kernel Object ID}
+	\acro{LK}{Little Kernel}
+	\acro{MBR}{Master Boot Record}
+	\acro{OS}{Operating System}
+	\acro{QEMU}{Quick Emulator}
+	\acro{RAM}{Random Access Memory}
+	\acro{RTE}{Runtime Environment}
+	\acro{SDK}{Software Developement Kit}
+	\acro{SSH}{Secure Shell}
+	\acro{SSL}{Secure Sockets Layer}
+	\acro{TOML}{Tom's Own Minimal Language}
+	\acro{VM}{Virtual Machine}
+	\acro{UDP}{User Datagram Protocol}
+	\acro{URL}{Uniform Resource Locator}
+	\acro{VGA}{Video Graphics Array}
+	\acro{VPI}{Virtual Path Identifier}
+	\acro{vDSO}{Virtual Dynamic Shared Object}
+	\acro{WIP}{Work in Progress}
+	
+\end{acronym}
+\onecolumn
+%------------------------------------------------------------------------------
+%List of Figures
+%------------------------------------------------------------------------------
+\listoffigures
+%------------------------------------------------------------------------------
+%List of Tables
+%------------------------------------------------------------------------------
+\listoftables
+%------------------------------------------------------------------------------
+% Appendices
+%------------------------------------------------------------------------------
+
+\begin{appendices}
+
+%------------------------------------------------------------------------------		
+\chapter{AAAA}
+\input{src/09appendixA}
+%------------------------------------------------------------------------------
+\chapter{BBBB}
+\input{src/10appendixB}
+%------------------------------------------------------------------------------	
+\chapter{Performance Evaluation}
+\input{src/11appendixC}
+%------------------------------------------------------------------------------		
+			
+\end{appendices}
+
+\end{document}
+
+
