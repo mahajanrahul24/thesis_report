@@ -1,4 +1,68 @@
 % ------------------------------------------------------------------------------
-% Chapter 4 : Design Implementation Storyboards
+% Chapter 4 : Analysis of Missing Features and Concepts
 % ------------------------------------------------------------------------------
-TBD
+\setlength{\parindent}{4em}
+\setlength{\parskip}{1em}
+
+\section{Analysis}
+Objective of this thesis is to estimate the performance of software or application on embedded hardware platform. And  performance aspect is total number of cycles. There different methods and techniques are available to evaluate the performance of software on given hardware platform. Techniques such as simlution techniques, WCET analysis, statistical and analyticl models, performance measurement tools and many more. Current state of the art tells us different methodology to estimate or calculate or predict the performance of software on hardware platform. Performance is measured on single-core or multi-core hardware platforms. But every technique or methodology has it's advantages and disadvantages which provide an opportunity to create new methodology or improve the existing technique with resolving drawbacks. With state of the art, in this thesis we ware going to see current disadvantages and missing features in state of the art and how can be these disadvantages are overcome and missing features can be added. 
+
+\subsection{Analysis of Simulators}
+\par Simulator is one the widely used to model hardware platform into virtual software platform. Where it provide an opportunity with market demand unavailable hardware can be implemented on simulators. Some hardware platforms are in developing stages or only have prototypes of it. In such cases it is difficult to finish embedded product within timeline. In above state of the art, Instruction Set Simulators(ISS) is used for Learning-based analytical cross-platform performance prediction[ieee1]. ISS simulates the Instruction Set Architecture(ISA). In given approach Target platform is simulated using gem5 simulator. In simulator, authors created virtual model of ARM processor and total number of cycles are extracted from it. Also in method[] mentioned for uniprocessor and multiprocessor performance evaluation of software, simulators are used. 
+
+\par Cycle accurate simulators provide accurate cycles by simulation microarchitecture cycle by cycle basis. As we saw from ARM two cycle accurate simulators are available with trade of simulation speed and abstraction level. Following are the advantage and disadvantages of simulators are discussed with respect to state of the art and thesis agenda.
+
+\subsubsection{Advantages}
+\begin{itemize}
+   \item Create exact simulation model of hardware platform. 
+   \item Suitable when hardware platform is unavailable of in prototype phase.
+   \item Full system models can also run operating systems on simulators.
+\end{itemize}
+
+\subsubsection{Disadvantages}
+\begin{itemize}
+   \item Majority of Simulators available in market are slowas compared to native hardware platform.
+   \item Major drawback is cost. Simulators are more costly.
+   \item There are dependencies while installing simulators on host platforms. 
+\end{itemize}
+
+\subsection{Analysis of Performance Measurement Tools}
+Performance measurement tools extract the information from PMU of hardware platform by reading hardware performance counters. Hardware performance counters contains the information about microarchitecture events like cache misses, cache hits, etc. To evaluate the performance of software or application on given hardware platform, microarchitecture event data help. In given state of the art, PAPI is only performance analysis tools is used in methods discussed by Gerstlauer[iee1,ieee2]. But there are many performance analyzer tools are available in market such as PERF, ARM streamline performance analyzer, Oprofile and many more. These tools are not explored in given approaches. Whereas on target platforms, cycles are calculated using cycle accurate simulators.
+
+\subsubsection{Advantages}
+\begin{itemize}
+   \item Easy to understand the performance of software on given hardware.
+   \item Some tools provide graphical user interface(GUI) and more features to analyze the data like ARM Streamline. 
+   \item Some tools are free because of open source licenses like PAPI, PERF, OProfile.
+\end{itemize}
+
+\subsubsection{Disadvantages}
+\begin{itemize}
+   \item GUI tools are expensive.
+   \item Set-up of measurement for GUI tools is complicated. 
+   \item In some tools, all microarchitectural events are not available.
+\end{itemize}
+
+
+\subsection{Analysis of performance data collection on number of core}
+As we know modern day processors have multi-core in SoC. And performance evaluation on multi-core processor is hard task. In state of the art analytical approaches, all data is collected on single core using performance measurement tools where in approach of uniprocessor and multiprocessor,performance data is collected on simulators not on native harwdare platforms. Also uniprocessor performance data is used to evaluate the performance of the software on dual-core and quad-core processors.
+
+\subsection{Analysis of grouping of hardware performance counters}
+Performance measurement tools read the hardware performance counter data and provide to user. Every processor has different number of hardware performance counters are available in it. To evaluate the performance of software, some performance analyzer tools provides access to limited number of hardware performance counter out of number of available hardware performance counters. So for same software, measurements need to be taken again because of limited availability at single time. Whereas PERF provides access to all hardware performance counters but the using sampling method and numbers are not accurate. This is measure drawback of performance measurement tools. In such scenarios the either only effective hardware performance counters considered or grouping of the hardware performance counter is performed and repeated measurements are taken. 
+
+\subsection{Analysis of Data Analysis Techniques}
+In analytical model approaches, all performance data is collected by executing number of softwares or application on host and target hardwares. This data is purposed for training data or for test data. If it is purposed for training data then analysis of data is important. Analysis of data collected can help to understand the data and behavior of software on given platforms. Data analysis technique application on large collected data helps to choose the learning algorithms. 
+
+
+\section{Contribution to Thesis}
+In previous chapter, we have seen the advantage and disadvantages of tools and techniques used in state of the art methodology to estimate the performance of software on hardware platform. All these drawbacks can be eliminated and all advantages can use to make single approach. That single approach is able to estimate the performance of software at phase level where phase size defined by user, on native hardware platform, on single-core and dual-core, with technique of data analysis involved and learning algorithms to estimate the performance. 
+
+\par In this thesis, software performance measurement tools are explored and chosen accordingly. As we saw in previous chapter, that there wide variety of software performance tools available in market. Some of them are open source license and some of them are paid. These measurement tools provide data regarding performance of software to user which helps to understand the performance behavior of software on given hardware platform. With help of this statistics, performance of software can be improved. Measurement tool like ARM Stream line provides the visualization of live performance measurement, which help to understand the flow of software execution. Also Linux tools like PERF, which is open source license provide the data for each hardware performance counter and helps to automate the scripts in Linux environment. PAPI provides low level and level API calls to measure the performance of software. Exploration of the all tools performed in this thesis and best suited tool for application is used to collect the data at phase level of software.
+
+\par As we know the performance of embedded processor and processor used in modern personal or office computer is quite different. ARM processors are most commonly used in embedded applications where as Intel processors are used in computers. These processors have different characteristics. Such as, ARM processor has fewer and simple instructions as compared to Intel so they have different processing powers. Power consumption is also crucial between thes two processor categories. Embedded processors consume less power as compared to computer processors. Also there is differences between software in these processor. Operating systems is used for both platforms is application specific and performance specific. Also use of the processor depend upon the application and cost of the product. In this thesis, our focus is on embedded processor and estimating the performance of software or application on it.
+
+\par In previous chapters, we discussed about the grouping of the hardware performance counters. Performance measurement tools access the hardware performance counters, which monitors the microarchitectural events. In this thesis we are going to see grouping of the counters. Number of hardware performance counters vary from processor to processors. It is not possible for performance measurement tools to access all hardware performance counters at same time. For example PAPI can access only six hardware performance counter at single time. In such cases, grouping of hardware performance counter is important. It help to understand the impact of each hardware performance counter on other counters and according to that different combinations can be implemented and best groups can be selected to observe the performance. Grouping of hardware performance counter plays measure roles. 
+
+\par In this thesis work, we are going to use learning model approach to predict the performance. In machine learning, ill-formed and insufficient data can affect the learning model. A good training set data is important to train the machine learning algorithm. Data collected for training data can be big. It is important to understand the behavior of collected data. In this case data analysis techniques come handy. These techniques provide visualization of data collected and help to analyze the data. For example correlation coefficient, principal component analysis and many more data analysis techniques are used. 
+
+\par Also current thesis work focuses on performance estimation on dual-core processors. As we saw in current state of the art, performance is evaluated on single core using learning model. Where as uniprocessor and multiprocessor approach estimated the performance on dual-core and quad-core but using simulation on Intel processor. And this thesis is focused on software performance prediction on dual-core of embedded hardware platform.

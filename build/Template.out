@@ -26,15 +26,22 @@
 \BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Instruction Set Simulator}{section.3.2}% 26
 \BOOKMARK [1][-]{section.3.3}{3.3 Basic Learning Techniques}{chapter.3}% 27
 \BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Regression}{section.3.3}% 28
-\BOOKMARK [0][]{chapter.4}{4 Design and Implementation Storyboards}{}% 29
-\BOOKMARK [0][]{chapter.5}{5 Safety Competency}{}% 30
-\BOOKMARK [0][]{chapter.6}{6 Performance Evaluation}{}% 31
-\BOOKMARK [0][]{chapter.7}{7 Future Outlook}{}% 32
-\BOOKMARK [0][]{chapter.8}{8 Conclusion}{}% 33
-\BOOKMARK [0][]{chapter*.4}{Bibliography}{}% 34
-\BOOKMARK [0][]{chapter*.5}{List of Abbreviations}{}% 35
-\BOOKMARK [0][]{chapter*.6}{List of Figures}{}% 36
-\BOOKMARK [0][]{chapter*.7}{List of Tables}{}% 37
-\BOOKMARK [0][]{Appendix.1.A}{Appendix A AAAA}{}% 38
-\BOOKMARK [0][]{Appendix.1.B}{Appendix B BBBB}{}% 39
-\BOOKMARK [0][]{Appendix.1.C}{Appendix C Performance Evaluation}{}% 40
+\BOOKMARK [0][]{chapter.4}{4 Analysis of Missing Features}{}% 29
+\BOOKMARK [1][-]{section.4.1}{4.1 Analysis}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Analysis of Simulators}{section.4.1}% 31
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Analysis of Performance Measurement Tools}{section.4.1}% 32
+\BOOKMARK [2][-]{subsection.4.1.3}{4.1.3 Analysis of performance data collection on number of core}{section.4.1}% 33
+\BOOKMARK [2][-]{subsection.4.1.4}{4.1.4 Analysis of grouping of hardware performance counters}{section.4.1}% 34
+\BOOKMARK [2][-]{subsection.4.1.5}{4.1.5 Analysis of Data Analysis Techniques}{section.4.1}% 35
+\BOOKMARK [1][-]{section.4.2}{4.2 Contribution to Thesis}{chapter.4}% 36
+\BOOKMARK [0][]{chapter.5}{5 Safety Competency}{}% 37
+\BOOKMARK [0][]{chapter.6}{6 Performance Evaluation}{}% 38
+\BOOKMARK [0][]{chapter.7}{7 Future Outlook}{}% 39
+\BOOKMARK [0][]{chapter.8}{8 Conclusion}{}% 40
+\BOOKMARK [0][]{chapter*.8}{Bibliography}{}% 41
+\BOOKMARK [0][]{chapter*.9}{List of Abbreviations}{}% 42
+\BOOKMARK [0][]{chapter*.10}{List of Figures}{}% 43
+\BOOKMARK [0][]{chapter*.11}{List of Tables}{}% 44
+\BOOKMARK [0][]{Appendix.1.A}{Appendix A AAAA}{}% 45
+\BOOKMARK [0][]{Appendix.1.B}{Appendix B BBBB}{}% 46
+\BOOKMARK [0][]{Appendix.1.C}{Appendix C Performance Evaluation}{}% 47
