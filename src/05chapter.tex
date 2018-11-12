@@ -1,4 +1,24 @@
 % ------------------------------------------------------------------------------
-% Chapter 5 : Functional Safety
+% Chapter 5 : Concept Description
 % ------------------------------------------------------------------------------
-TBD
+\setlength{\parindent}{4em}
+\setlength{\parskip}{1em}
+
+This thesis work emphasis on analytical model technique to predict the performance on embedded hardware. This analytical model or statistical model contains large dataset of performance, collected from hardware platform using performance measurement tool at each phase level of software. 
+
+\par Due to unavailability of hardware platform, it is difficult for software engineers to estimate the performance of developing software. Some time hardware may not be yet developed or it may be prototype phase. Without performance evaluation of software, optimization is not possible and product release get prolonged. In this thesis work total number of cycles is performance aspect for software. In such scenario, cycle accurate simulators can be used but one of the main disadvantage is that they are too slow and costly. For higher speed, fast cycle models are available but performance is measured at abstraction level and they are costly. There is no tools, framework or methodology available to which can provide speed higher than cycle accurate models and less abstraction level than fast cycle models. This criteria can be implemented using machine learning technique, that can provide accurate results with less abstraction. 
+
+\par In this thesis work Raspberry Pi 3B[link] is used as host and target platform. Basic ideology is that, performance of software can be predicted by for same SoC without physical need of it. Software or application who's performance to be evaluated is executed on Raspberry and learning algorithm predicts the total number of cycles for it. 
+
+\par Performance data for number of programs is collected by executing them on host platform. These data is collected at each phase of software. Each phase of software can be defined as number of basic blocks it contains. Size of phase depends on the number of basic blocks. This of each phase for software can be varied by user. This provides more fined granularity to understand the behavior of software at each phase while executing on hardware platform. For example granularity of 500 is defined by user it means each phase has 500 basic blocks and performance is measured for each phase of software. Basic block in software is line of codes which has straight sequence of execution without branching except it has single entry and single exit. Number of programs executed with different granularity level provide wide performance datasets. 
+
+\par Main challenge is to collect the performance data at each phase and to collect the data we need performance measurement tool. Tool which is flexible to collect data at different user defined granularity level. But major challenge is how to divide the software in different phases. Tool chain is needed to convert the software in basic blocks, combine basic blocks at granularity defined by user and then measure performance at built phase. In this thesis we will see the framework which divides the software in number of basic block and combine them into user defined granularity and supports to measure performance data at phase level. 
+
+\par Before dividing the software in different phases, selection of performance measurement tools is important aspect. As we discussed in previous chapters that there are many tools available such as PAPI, PERF, OProfile, ARM Streamline,etc. But while selecting tools accuracy, speed, flexibility, portability, and cost all these factors need be considered. Performance data showed by tools must be accurate. It provides the results as fast as possible. It should be flexible for application such as collecting data at phase level of software. It can be easily ported to other operating systems and hardware platforms. And main important factor is cost. Whether it is paid or free license. 
+
+\par PMU of processor monitors the microarchitectural events. These microarchitectural events are read by performance measurement tools. In Raspberry Pi 3B, only 14 hardware performance counters are available. One of the drawback of accessing the harwdare performance counters from PMU is limited counters used at a time. Tools like PAPI, PERF and Streamline can measure 6 hardware counters at a time. That mean to reaad other hardware counter values the software need to executed for at least three times to get reading for all 14 performance counters. In 14 hardware counters total cycle counter is also included. So to observe and understand the impact of each counter on cycle grouping of counters is needed to be done. So similar software is execute at least three times that means for during every execution background environment needs to be kept similar to avoid disturbances. 
+
+\par 
+
+
+
