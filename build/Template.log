@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.27)  11 NOV 2018 19:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.27)  18 NOV 2018 19:19
 entering extended mode
 **./Template.tex
 (Template.tex
@@ -501,6 +501,27 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@toks=\toks20
 \enit@inbox=\box32
 \enitdp@description=\count133
+)
+("C:\Users\Rahul Mahajan\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs
+.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen123
+\lightrulewidth=\dimen124
+\cmidrulewidth=\dimen125
+\belowrulesep=\dimen126
+\belowbottomsep=\dimen127
+\aboverulesep=\dimen128
+\abovetopsep=\dimen129
+\cmidrulesep=\dimen130
+\cmidrulekern=\dimen131
+\defaultaddspace=\dimen132
+\@cmidla=\count134
+\@cmidlb=\count135
+\@aboverulesep=\dimen133
+\@belowrulesep=\dimen134
+\@thisruleclass=\count136
+\@lastruleclass=\count137
+\@thisrulewidth=\dimen135
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -547,46 +568,46 @@ Package: amstext 2000/06/29 v2.01 AMS text
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
-\ex@=\dimen123
+\ex@=\dimen136
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen124
+\pmbraise@=\dimen137
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count134
+\inf@bad=\count138
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count135
-\leftroot@=\count136
+\uproot@=\count139
+\leftroot@=\count140
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count137
-\DOTSCASE@=\count138
+\classnum@=\count141
+\DOTSCASE@=\count142
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box33
 \strutbox@=\box34
-\big@size=\dimen125
+\big@size=\dimen138
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count139
-\c@MaxMatrixCols=\count140
+\macc@depth=\count143
+\c@MaxMatrixCols=\count144
 \dotsspace@=\muskip11
-\c@parentequation=\count141
-\dspbrk@lvl=\count142
+\c@parentequation=\count145
+\dspbrk@lvl=\count146
 \tag@help=\toks22
-\row@=\count143
-\column@=\count144
-\maxfields@=\count145
+\row@=\count147
+\column@=\count148
+\maxfields@=\count149
 \andhelp@=\toks23
-\eqnshift@=\dimen126
-\alignsep@=\dimen127
-\tagshift@=\dimen128
-\tagwidth@=\dimen129
-\totwidth@=\dimen130
-\lineht@=\dimen131
+\eqnshift@=\dimen139
+\alignsep@=\dimen140
+\tagshift@=\dimen141
+\tagwidth@=\dimen142
+\totwidth@=\dimen143
+\lineht@=\dimen144
 \@envbody=\toks24
 \multlinegap=\skip67
 \multlinetaggap=\skip68
@@ -596,7 +617,7 @@ LaTeX Info: Redefining \] on input line 2818.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count146
+\c@float@type=\count150
 \float@exts=\toks26
 \float@box=\box35
 \@float@everytoks=\toks27
@@ -628,51 +649,51 @@ Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
 <2008/02/07> (tvz)
-\FV@CodeLineNo=\count147
+\FV@CodeLineNo=\count151
 \FV@InFile=\read1
 \FV@TabBox=\box37
-\c@FancyVerbLine=\count148
-\FV@StepNumber=\count149
+\c@FancyVerbLine=\count152
+\FV@StepNumber=\count153
 \FV@OutFile=\write4
 )
 ("C:\Users\Rahul Mahajan\AppData\Roaming\MiKTeX\2.9\tex\latex\appendix\appendix
 .sty"
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count150
-\c@@ppsavesec=\count151
-\c@@ppsaveapp=\count152
+\c@@pps=\count154
+\c@@ppsavesec=\count155
+\c@@ppsaveapp=\count156
 )
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 49.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 50.
 
 
 Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 49.
+(hyperref)                setting the option has no effect on input line 50.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 49.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 50.
 (Template.aux)
 \openout1 = `Template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 89.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 90.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 89.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 90.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -680,16 +701,16 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ("C:\Users\Rahul Mahajan\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.m
 kii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count153
-\scratchdimen=\dimen132
+\scratchcounter=\count157
+\scratchdimen=\dimen145
 \scratchbox=\box38
-\nofMPsegments=\count154
-\nofMParguments=\count155
+\nofMPsegments=\count158
+\nofMParguments=\count159
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count156
-\MPscratchDim=\dimen133
-\MPnumerator=\count157
-\makeMPintoPDFobject=\count158
+\MPscratchCnt=\count160
+\MPscratchDim=\dimen146
+\MPnumerator=\count161
+\makeMPintoPDFobject=\count162
 \everyMPtoPDFconversion=\toks29
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -705,7 +726,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box39
-Package hyperref Info: Link coloring OFF on input line 89.
+Package hyperref Info: Link coloring OFF on input line 90.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -713,22 +734,22 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count159
+\c@section@level=\count163
 )
-LaTeX Info: Redefining \ref on input line 89.
-LaTeX Info: Redefining \pageref on input line 89.
-LaTeX Info: Redefining \nameref on input line 89.
+LaTeX Info: Redefining \ref on input line 90.
+LaTeX Info: Redefining \pageref on input line 90.
+LaTeX Info: Redefining \nameref on input line 90.
 
 (Template.out) (Template.out)
 \@outlinefile=\write5
 \openout5 = `Template.out'.
 
-\c@lstlisting=\count160
+\c@lstlisting=\count164
 
 <images/BEG_Logo.jpg, id=75, 431.6125pt x 200.75pt>
 File: images/BEG_Logo.jpg Graphic file (type jpg)
  <use images/BEG_Logo.jpg>
-Package pdftex.def Info: images/BEG_Logo.jpg used on input line 108.
+Package pdftex.def Info: images/BEG_Logo.jpg used on input line 109.
 (pdftex.def)             Requested size: 215.80571pt x 100.37474pt.
 
 <images/TU_Chemnitz_positiv_gruen.pdf, id=76, 202.89903pt x 132.57831pt>
@@ -736,32 +757,32 @@ File: images/TU_Chemnitz_positiv_gruen.pdf Graphic file (type pdf)
 
 <use images/TU_Chemnitz_positiv_gruen.pdf>
 Package pdftex.def Info: images/TU_Chemnitz_positiv_gruen.pdf used on input lin
-e 110.
+e 111.
 (pdftex.def)             Requested size: 162.31943pt x 106.06277pt.
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 136.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 137.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 136
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 137
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 136
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 137
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 136.
+(Font)              <17.28> on input line 137.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 136.
+(Font)              <12> on input line 137.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 136.
+(Font)              <10> on input line 137.
  [1
 
 
@@ -772,11 +793,11 @@ t4): destination with the same identifier (name{page.1}) has been already used,
  duplicate ignored
 <to be read again> 
                    \relax 
-l.162 \addchap*{Acknowledgement}
+l.163 \addchap*{Acknowledgement}
                                  [1
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 162
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 163
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
@@ -1082,22 +1103,311 @@ chapter 4.
 
 ] [32] [33] [34]) [35]
 chapter 5.
-(src/05chapter.tex) [36
+(src/05chapter.tex [36
 
 
-]
+] [37]) [38]
 chapter 6.
-(src/06chapter.tex) [37
+(src/06chapter.tex
+
+LaTeX Warning: Reference `fig:training' on page 39 undefined on input line 9.
+
+<./images/training.png, id=410, 703.87968pt x 211.54031pt>
+File: ./images/training.png Graphic file (type png)
+
+<use ./images/training.png>
+Package pdftex.def Info: ./images/training.png used on input line 12.
+(pdftex.def)             Requested size: 398.33717pt x 142.26707pt.
+ [39
 
 
-]
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.20 
+      <./images/training.png>]
+
+LaTeX Warning: Reference `fig:a53' on page 40 undefined on input line 21.
+
+<./images/A53.png, id=418, 1061.9675pt x 1138.2525pt>
+File: ./images/A53.png Graphic file (type png)
+ <use ./images/A53.png>
+Package pdftex.def Info: ./images/A53.png used on input line 24.
+(pdftex.def)             Requested size: 227.62178pt x 341.42628pt.
+
+[40pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.31 
+      <./images/A53.png>] [41] [42] [43] [44] [45] [46] [47] [48]
+Overfull \hbox (3.51813pt too wide) in paragraph at lines 284--285
+[]\OT1/lmr/m/n/12 To cap-ture the per-for-mance on hard-ware plat-form, cap-tur
+e but-ton is pressed
+ []
+
+
+Overfull \hbox (15.02689pt too wide) in paragraph at lines 295--296
+[]|\OT1/lmr/bx/n/12 Streamline| 
+ []
+
+
+Overfull \hbox (3.0343pt too wide) in paragraph at lines 305--306
+[]|\OT1/lmr/m/n/12 Relatively
+ []
+
+
+LaTeX Warning: Reference `fig:tool_results' on page 49 undefined on input line 
+311.
+
+<./images/tool_result.png, id=620, 911.0838pt x 484.6908pt>
+File: ./images/tool_result.png Graphic file (type png)
+
+<use ./images/tool_result.png>
+Package pdftex.def Info: ./images/tool_result.png used on input line 315.
+(pdftex.def)             Requested size: 398.33405pt x 398.33652pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[49] [50pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.6.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.326 
+       <./images/tool_result.png>]
+
+LaTeX Warning: Reference `fig:grp_4' on page 51 undefined on input line 331.
+
+<./images/grp_4.png, id=633, 1445.4pt x 995.1579pt>
+File: ./images/grp_4.png Graphic file (type png)
+ <use ./images/grp_4.png>
+Package pdftex.def Info: ./images/grp_4.png used on input line 334.
+(pdftex.def)             Requested size: 398.33534pt x 398.34462pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:grp_4_perc_change' on page 51 undefined on input 
+line 340.
+
+
+LaTeX Warning: Reference `fig:grp_4_perc_change' on page 51 undefined on input 
+line 340.
+
+[51] <./images/grp_4_perc_change.png, id=640, 1505.625pt x 1036.62282pt>
+File: ./images/grp_4_perc_change.png Graphic file (type png)
+
+<use ./images/grp_4_perc_change.png>
+Package pdftex.def Info: ./images/grp_4_perc_change.png used on input line 343.
+
+(pdftex.def)             Requested size: 398.34546pt x 398.33388pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[52pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.351 
+       <./images/grp_4.png>]
+Overfull \hbox (324.98438pt too wide) in paragraph at lines 352--373
+[][] 
+ []
+
+[53pdfTeX warning (ext4): destination with the same identifier (name{figure.6.5
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.375 \par A
+            fter running these combination of counters mentioned in above ta...
+ <./images/grp_4_perc_change.png>] [54] [55]
+
+LaTeX Warning: Reference `fig:phase' on page 56 undefined on input line 406.
+
+
+LaTeX Warning: Reference `fig:phase' on page 56 undefined on input line 406.
+
+<./images/phase.png, id=676, 764.6166pt x 425.4294pt>
+File: ./images/phase.png Graphic file (type png)
+ <use ./images/phase.png>
+Package pdftex.def Info: ./images/phase.png used on input line 409.
+(pdftex.def)             Requested size: 369.89355pt x 284.53636pt.
+
+
+LaTeX Warning: Reference `fig:flow' on page 56 undefined on input line 415.
+
+[56pdfTeX warning (ext4): destination with the same identifier (name{figure.6.6
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.416 
+       <./images/phase.png>]
+<./images/flow.png, id=684, 395.5578pt x 437.4744pt>
+File: ./images/flow.png Graphic file (type png)
+ <use ./images/flow.png>
+Package pdftex.def Info: ./images/flow.png used on input line 418.
+(pdftex.def)             Requested size: 284.54185pt x 369.88576pt.
+
+[57pdfTeX warning (ext4): destination with the same identifier (name{figure.6.7
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.432 
+       <./images/flow.png>] [58] [59] [60] [61] [62]
+<./images/single_core_pca.png, id=750, 480.29437pt x 322.95656pt>
+File: ./images/single_core_pca.png Graphic file (type png)
+
+<use ./images/single_core_pca.png>
+Package pdftex.def Info: ./images/single_core_pca.png used on input line 567.
+(pdftex.def)             Requested size: 341.43645pt x 227.62033pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./images/dual_no_pca.png, id=751, 481.8pt x 323.70938pt>
+File: ./images/dual_no_pca.png Graphic file (type png)
+
+<use ./images/dual_no_pca.png>
+Package pdftex.def Info: ./images/dual_no_pca.png used on input line 574.
+(pdftex.def)             Requested size: 341.4408pt x 227.6224pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./images/dual_full_pca.png, id=752, 481.04718pt x 323.70938pt>
+File: ./images/dual_full_pca.png Graphic file (type png)
+
+<use ./images/dual_full_pca.png>
+Package pdftex.def Info: ./images/dual_full_pca.png used on input line 581.
+(pdftex.def)             Requested size: 341.44313pt x 284.54407pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[63] [64pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.6.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.592 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.592 
+       <./images/single_core_pca.png> <./images/dual_no_pca.png>]
+<./images/CC_single.png, id=766, 523.9575pt x 382.42876pt>
+File: ./images/CC_single.png Graphic file (type png)
+
+<use ./images/CC_single.png>
+Package pdftex.def Info: ./images/CC_single.png used on input line 598.
+(pdftex.def)             Requested size: 341.43979pt x 227.62086pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./images/CC_no_load.png, id=767, 478.78876pt x 374.90062pt>
+File: ./images/CC_no_load.png Graphic file (type png)
+
+<use ./images/CC_no_load.png>
+Package pdftex.def Info: ./images/CC_no_load.png used on input line 605.
+(pdftex.def)             Requested size: 341.43275pt x 227.62503pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./images/CC_full_load.png, id=768, 481.04718pt x 362.85562pt>
+File: ./images/CC_full_load.png Graphic file (type png)
+
+<use ./images/CC_full_load.png>
+Package pdftex.def Info: ./images/CC_full_load.png used on input line 612.
+(pdftex.def)             Requested size: 341.44313pt x 227.62578pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./images/heatmap_full_load.png, id=769, 523.9575pt x 394.47375pt>
+File: ./images/heatmap_full_load.png Graphic file (type png)
+
+<use ./images/heatmap_full_load.png>
+Package pdftex.def Info: ./images/heatmap_full_load.png used on input line 619.
+
+(pdftex.def)             Requested size: 341.43979pt x 227.62119pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[65pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1
+0}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.627 
+       <./images/dual_full_pca.png>] [66pdfTeX warning (ext4): destination with
+ the same identifier (name{figure.6.11}) has been already used, duplicate ignor
+ed
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.628 \par U
+            sing PCA, we reduced the data into 2 dimensions and able to rela...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.12})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.628 \par U
+            sing PCA, we reduced the data into 2 dimensions and able to rela...
+ <./images/CC_single.png> <./images/CC_no_load.png>] [67pdfTeX warning (ext4): 
+destination with the same identifier (name{figure.6.13}) has been already used,
+ duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.629 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.629 
+       <./images/CC_full_load.png> <./images/heatmap_full_load.png>]
+
+LaTeX Warning: Reference `fig:prediction' on page 68 undefined on input line 63
+2.
+
+<./images/prediction.png, id=794, 563.85657pt x 181.42781pt>
+File: ./images/prediction.png Graphic file (type png)
+
+<use ./images/prediction.png>
+Package pdftex.def Info: ./images/prediction.png used on input line 635.
+(pdftex.def)             Requested size: 398.3449pt x 142.26611pt.
+ [68pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.648 
+       <./images/prediction.png>] [69]) [70]
 chapter 7.
-(src/07chapter.tex) [38
+(src/07chapter.tex) [71
 
 
 ]
 chapter 8.
-(src/08chapter.tex) (Template.bbl [39
+(src/08chapter.tex) (Template.bbl [72
 
 
 ]
@@ -1106,32 +1416,32 @@ LaTeX Warning: Empty `thebibliography' environment on input line 5.
 
 )
 No file Template.ind.
-[40
+[73
 
 
 ]
 chapter without number
 
-Overfull \hbox (9.93604pt too wide) in paragraph at lines 295--296
+Overfull \hbox (9.93604pt too wide) in paragraph at lines 296--297
 []\OT1/lmr/m/n/12 Integrated De-vel-op-ment En-vi-ron-ment[] 
  []
 
 
-Overfull \hbox (3.85878pt too wide) in paragraph at lines 298--299
+Overfull \hbox (3.85878pt too wide) in paragraph at lines 299--300
 []\OT1/lmr/m/n/12 International Or-ga-ni-za-tion For Stan-
  []
 
-[41
+[74
 
 
 
-] [42
+] [75
 
 ] (Template.lof)
 \tf@lof=\write7
 \openout7 = `Template.lof'.
 
- [43
+ [76
 
 
 
@@ -1139,45 +1449,45 @@ Overfull \hbox (3.85878pt too wide) in paragraph at lines 298--299
 \tf@lot=\write8
 \openout8 = `Template.lot'.
 
- [44
+ [77
 
 
 ]
 chapter A.
-(src/09appendixA.tex) [45
+(src/09appendixA.tex) [78
 
 
 ]
 chapter B.
-(src/10appendixB.tex) [46
+(src/10appendixB.tex) [79
 
 
 ]
 chapter C.
 (src/11appendixC.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 348.
- [47
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
+ [80
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 348.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
  (Template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 348.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 348.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 349.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 349.
 Package rerunfilecheck Info: File `Template.out' has not changed.
 (rerunfilecheck)             Checksum: 63025AB067F77B4442ED952CF5E6B92D;972.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 348.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 349.
  ) 
 Here is how much of TeX's memory you used:
- 12421 strings out of 493333
- 195413 string characters out of 3139168
- 438259 words of memory out of 3000000
- 15486 multiletter control sequences out of 15000+200000
- 51557 words of font info for 44 fonts, out of 3000000 for 9000
+ 12839 strings out of 493333
+ 202059 string characters out of 3139168
+ 530998 words of memory out of 3000000
+ 15613 multiletter control sequences out of 15000+200000
+ 55775 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,9n,69p,8821b,1700s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{chapter*.7} has been referenced but does not exis
@@ -1192,17 +1502,24 @@ pdfTeX warning (dest): name{chapter*.5} has been referenced but does not exist,
 pdfTeX warning (dest): name{chapter*.4} has been referenced but does not exist,
  replaced by a fixed one
 
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/
-dvips/lm/lm-rm.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
-lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files
+/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts
+/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt
+.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
+m/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
 Output written on "C:/Users/Rahul Mahajan/Desktop/Thesis-report/Report_Thesis/b
-uild/Template.pdf" (48 pages, 1269390 bytes).
+uild/Template.pdf" (81 pages, 2402780 bytes).
 PDF statistics:
- 570 PDF objects out of 1000 (max. 8388607)
- 224 named destinations out of 1000 (max. 500000)
- 215 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1060 PDF objects out of 1200 (max. 8388607)
+ 495 named destinations out of 1000 (max. 500000)
+ 290 words of extra memory for PDF output out of 10000 (max. 10000000)
 
