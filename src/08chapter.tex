@@ -1,4 +1,17 @@
 % ------------------------------------------------------------------------------
-% Chapter 8 : Conclusion
+% Chapter 8 : Future Work
 % ------------------------------------------------------------------------------
-TBD
+\setlength{\parindent}{4em}
+\setlength{\parskip}{1em}
+
+\section{Introduction to medium load}
+We discussed in previous chapters about data is collected and predicted on dual core processor with no load and full load scenarios. Where in no load scenario, data is collected on dual core where no background processes are running. In full load scenario, background processes are running with full utilization of one of the dual core and data collected on both. In same way, a medium load can be also introduced where core utilization is upto 50\% and then data can be collected. These scenarios , we applied in Cortx A53, because it has unified level 2 cache for every two cores.  Same scenarios can be applied to quad cores where last level cache is unified.
+
+\section{Prediction for cross platforms}
+In this thesis work, we collected the data and predicted the performance on same hardware platforms. It is also possible to predict the performance for cross platform because there is latent relationship between two hardware platforms such as one processor is fast other maybe slow. Data can be collected on both hardware platforms and mapping of input and output can be learned. Using learning models, it is possible to predict the performance for second hardware platform without executing the software workload on it. Also performance prediction can done on single core as well as dual core with both scenarios we discussed in thesis. 
+
+\section{Classification model to identify load}
+Using classification learning model, it also possible to identify the load on cores. Training data can collected for various loads and then load can be categorized into different classes. And then new application or software workload given as input to predict the class of load. According to class load, performance prediction algorithm can be applied to predict the performance in various aspect of performance with respect to identified class of load. 
+
+
+ 

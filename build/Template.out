@@ -56,12 +56,29 @@
 \BOOKMARK [2][-]{subsection.6.8.1}{6.8.1 Lasso Regression}{section.6.8}% 56
 \BOOKMARK [2][-]{subsection.6.8.2}{6.8.2 Ridge Regression}{section.6.8}% 57
 \BOOKMARK [2][-]{subsection.6.8.3}{6.8.3 Constrained Locally Sparse Linear Regression \(CLSLR\)}{section.6.8}% 58
-\BOOKMARK [0][]{chapter.7}{7 Future Outlook}{}% 59
-\BOOKMARK [0][]{chapter.8}{8 Conclusion}{}% 60
-\BOOKMARK [0][]{chapter*.13}{Bibliography}{}% 61
-\BOOKMARK [0][]{chapter*.14}{List of Abbreviations}{}% 62
-\BOOKMARK [0][]{chapter*.15}{List of Figures}{}% 63
-\BOOKMARK [0][]{chapter*.16}{List of Tables}{}% 64
-\BOOKMARK [0][]{Appendix.1.A}{Appendix A AAAA}{}% 65
-\BOOKMARK [0][]{Appendix.1.B}{Appendix B BBBB}{}% 66
-\BOOKMARK [0][]{Appendix.1.C}{Appendix C Performance Evaluation}{}% 67
+\BOOKMARK [0][]{chapter.7}{7 Results}{}% 59
+\BOOKMARK [1][-]{section.7.1}{7.1 Cross Validation}{chapter.7}% 60
+\BOOKMARK [1][-]{section.7.2}{7.2 Response time}{chapter.7}% 61
+\BOOKMARK [1][-]{section.7.3}{7.3 Prediction Accuracy}{chapter.7}% 62
+\BOOKMARK [2][-]{subsection.7.3.1}{7.3.1 Single Core}{section.7.3}% 63
+\BOOKMARK [2][-]{subsection.7.3.2}{7.3.2 Dual Core without Load}{section.7.3}% 64
+\BOOKMARK [2][-]{subsection.7.3.3}{7.3.3 Dual Core with Full Load}{section.7.3}% 65
+\BOOKMARK [1][-]{section.7.4}{7.4 Phase Granularity Tradeoffs}{chapter.7}% 66
+\BOOKMARK [2][-]{subsection.7.4.1}{7.4.1 Single Core}{section.7.4}% 67
+\BOOKMARK [2][-]{subsection.7.4.2}{7.4.2 Dual Core with No Load}{section.7.4}% 68
+\BOOKMARK [2][-]{subsection.7.4.3}{7.4.3 Dual Core with Full Load}{section.7.4}% 69
+\BOOKMARK [2][-]{subsection.7.4.4}{7.4.4 Tradeoff between speed and granularity}{section.7.4}% 70
+\BOOKMARK [0][]{chapter.8}{8 Future Work}{}% 71
+\BOOKMARK [1][-]{section.8.1}{8.1 Introduction to medium load}{chapter.8}% 72
+\BOOKMARK [1][-]{section.8.2}{8.2 Prediction for cross platforms}{chapter.8}% 73
+\BOOKMARK [1][-]{section.8.3}{8.3 Classification model to identify load}{chapter.8}% 74
+\BOOKMARK [0][]{chapter.9}{9 Conclusion}{}% 75
+\BOOKMARK [1][-]{section.9.1}{9.1 Introduction to medium load}{chapter.9}% 76
+\BOOKMARK [1][-]{section.9.2}{9.2 Prediction for cross platforms}{chapter.9}% 77
+\BOOKMARK [1][-]{section.9.3}{9.3 Classification model to identify load}{chapter.9}% 78
+\BOOKMARK [0][]{chapter*.13}{Bibliography}{}% 79
+\BOOKMARK [0][]{chapter*.14}{List of Abbreviations}{}% 80
+\BOOKMARK [0][]{chapter*.15}{List of Figures}{}% 81
+\BOOKMARK [0][]{chapter*.16}{List of Tables}{}% 82
+\BOOKMARK [0][]{Appendix.1.A}{Appendix A BBBB}{}% 83
+\BOOKMARK [0][]{Appendix.1.B}{Appendix B Performance Evaluation}{}% 84

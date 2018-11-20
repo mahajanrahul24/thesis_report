@@ -1,0 +1,13 @@
+% ------------------------------------------------------------------------------
+% Chapter 9 : Conclusion
+% ------------------------------------------------------------------------------
+\setlength{\parindent}{4em}
+\setlength{\parskip}{1em}
+
+In this thesis work, we predicted performance for software workload on single and dual core of the Cortex A53 with accuracy more than 86\%. We used LLVM tool chain and PAPI performance measurement tool to extract the performance data. We compared PAPI, PERF and ARM streamline to select the performance measurement tool on basis of different parameter.  We finalize PAPI performance tool to collect the performance of software workload on hardware platform by reading values from hardware performance counters. LLVM allows to divide the software in continuous phases. Instrumentation of software at phase is achieved using PAPI and LLVM. 
+
+\par We created two frameworks, one for training and another for prediction. In training framework, we collected training data for 263 software workloads from wide domains of applications at 15 different granularities on single core and dual core. On dual core collected the data in teo different scenarios, one without load on processor and another with full load on processor.  To understand the mapping and relationship in training data, we applied data analysis techniques like PCA and correlation coefficient. We observed that relationship is linear between data, chose learning models under supervise learning techniques.
+
+\par Using cross validation technique, we validated the lasso and ridge learning models using training data. Compared to the state of the art learning model CLSLR, lasso and ridge has fast response time. CLSLR has slow response time due to application optimization for each each input to neighborhood. Using prediction framework, we collected performance aspect data from hardware platform for new software workload from MiBench benchmark suite and predict the total cycles for them at different granulraties using lasso and ridge. Selecting the learning algorithm between lasso and ridge, lasso has slightly more accurate results and quick response time as compare to ridge learning algorithm. 
+
+\par Accuracy of the algorithms also changes with respect to granularities. As we saw in trade offs between accuracy and granularity, accuracy gets reduced as granularity increases further. Also speed of the algorithm changes as granularity increases. It is very interesting to predict the performance for software workloads on multicore processor with different granularities. 

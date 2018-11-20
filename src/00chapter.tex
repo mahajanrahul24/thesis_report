@@ -1,4 +1,13 @@
 % ------------------------------------------------------------------------------
 % Chapter 00 : Abstract
 % ------------------------------------------------------------------------------
-TBD 
+\setlength{\parindent}{4em}
+\setlength{\parskip}{1em}
+
+Due to market pressure, software and hardware are developed together. But sometimes the hardware is in prototype phase or not yet have been developed yet. In such cases, it is hard to get performance of software on hardware which may be unavailable during development phase. To address this issue cycle accurate simulators are used to get the performance of software. But there are challenging problems with these simulation tools, they are often slow and expensive. 
+
+\par In this thesis work, we propose the learning based approach that synthesize the analytical models that can accurately predict the performance of software for hardware platform.  We apply a fine grained phase based approach, where learning algorithm predict the performance of the software workload. All performance aspect data using hardware performance counters of processor, is collected for software workload on hardware platform at phase level and given to learning algorithm to predict the performance at phase level of software workload.
+
+\par Learning approach relies on a one time training data collected at different granularities. We used software programs from ACM-ICPC and Sanfoundry to collect the training data. We applied our approach on 9 benchmarks from MiBench benchmark suite. 
+
+\par Results shows that average over 86\%  prediction accuracy for fine grained performance. 
